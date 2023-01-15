@@ -4,6 +4,10 @@
 
 {{--Page specific styles only applicable on this page--}}
 @push('styles')
+
+    {{--Font awesome link--}}
+    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
     <style>
         .new_page_link {
             text-decoration: none;
@@ -80,5 +84,5 @@
 
 {{--Page specific scripts only applicable on this page--}}
 @push('scripts')
-    <script src="https://kit.fontawesome.com/5a3d549b53.js" crossorigin="anonymous"></script>
+
 @endpush
